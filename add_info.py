@@ -40,7 +40,6 @@ with st.form("add_flight_form"):
             "plane_mode": plane_mode
         }
 
-        # **1. 读取 flight_data.json**
         try:
             with open("flight_data.json", "r", encoding="utf-8") as file:
                 flight_data = json.load(file)
@@ -49,14 +48,12 @@ with st.form("add_flight_form"):
 
         flight_data.append(new_flight)
 
-        # **2. 读取 airport_name.json**
         try:
             with open("airport_name.json", "r", encoding="utf-8") as file:
                 airport_data = json.load(file)
         except (FileNotFoundError, json.JSONDecodeError):
             airport_data = []
 
-        # **3. 检查并添加新的机场数据**
         existing_airports = {(airport["lon"], airport["lat"]) for airport in airport_data}
 
         departure_entry = {
@@ -76,7 +73,6 @@ with st.form("add_flight_form"):
         if (arrival_entry["lon"], arrival_entry["lat"]) not in existing_airports:
             airport_data.append(arrival_entry)
 
-        # **4. 保存更新后的数据**
         try:
             with open("flight_data.json", "w", encoding="utf-8") as file:
                 json.dump(flight_data, file, indent=4)
