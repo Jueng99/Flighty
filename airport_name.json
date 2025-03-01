@@ -1,0 +1,62 @@
+[
+    {
+        "lon": 101.7049,
+        "lat": 2.75497,
+        "name": "(KUL,Kuala Lumpur)"
+    },
+    {
+        "lon": 116.058611,
+        "lat": 5.944722,
+        "name": "(BKI,Kota Kinabalu)"
+    },
+    {
+        "lon": 106.651944,
+        "lat": 10.818889,
+        "name": "(SGN,Ho Chi Minh City)"
+    },
+    {
+        "lon": 108.172442,
+        "lat": 22.608267,
+        "name": "(NNG,Nannig)"
+    },
+    {
+        "lon": 108.756556,
+        "lat": 34.437806,
+        "name": "(XIY,Xi'an)"
+    },
+    {
+        "lon": 118.127778,
+        "lat": 24.544167,
+        "name": "(XMN,Xiamen)"
+    },
+    {
+        "lon": 103.989444,
+        "lat": 1.359167,
+        "name": "(SIN,Singapore)"
+    },
+    {
+        "lon": 108.199444,
+        "lat": 16.043889,
+        "name": "(DAD,Da Nang)"
+    },
+    {
+        "lon": 126.44,
+        "lat": 37.463333,
+        "name": "(ICN,Seoul)"
+    },
+    {
+        "lon": 104.445,
+        "lat": 30.319,
+        "name": "(TFU,CHengdu)"
+    },
+    {
+        "lon": 69.281186,
+        "lat": 41.257861,
+        "name": "(TAS,Tashkent))"
+    },
+    {
+        "lon": 99.733333,
+        "lat": 6.333333,
+        "name": "(LGK,Langkawi)"
+    }
+]
